@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #efefef !important;
+}
+
+.todo-app {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px 20px 10px;
+}
+
+.collection-item {
+  background: #fff;
+}
+
+.collection-item:hover {
+  cursor: pointer;
+  background: #2196f3;
+  color: #fff;
+}
+
+form {
+  margin: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.collection {
+  max-height: 390px;
+  overflow-y: auto;
+}
+
+.collection-item {
+  padding: 1rem;
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.fa-trash, .fa-edit {
+  position: absolute;
+  cursor: pointer;
+}
